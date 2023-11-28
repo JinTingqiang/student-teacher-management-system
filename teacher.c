@@ -9,6 +9,7 @@ int cnt_stu;//学生人数
 int cnt_quit_stu;//退学学生人数
 void teacher(void)
 {//登录教师端
+//git测试
 	//使用帐号登录
 	int id;
 	char code[32]={};
@@ -71,7 +72,7 @@ void teacher(void)
 		{
 			printf("输入错误，还有一次机会！\n");
 		}
-		else if(3==Tch[i].code_cnt) 
+		else if(3==Tch[i].code_cnt) //进行修改 
 		{
 			Tch[i].lock=1;
 			printf("密码输入错误三次，帐号已锁定，解锁请校长解锁！\n");
