@@ -10,6 +10,7 @@ int cnt_quit_stu;//退学学生人数
 void teacher(void)
 {//登录教师端
 //git测试
+//git测试2
 	//使用帐号登录
 	int id;
 	char code[32]={};
