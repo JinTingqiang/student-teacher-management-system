@@ -71,7 +71,7 @@ void teacher(void)
 		{
 			printf("输入错误，还有一次机会！\n");
 		}
-		else if(3==Tch[i].code_cnt)
+		else if(3==Tch[i].code_cnt) 
 		{
 			Tch[i].lock=1;
 			printf("密码输入错误三次，帐号已锁定，解锁请校长解锁！\n");
